@@ -18,15 +18,15 @@ Then you need to fund an account with atleast 0.004 SOL that is generated when r
 To launch your token on Pumpfun site, edit the metadata as desired.
 ```typescript
     const metadata = {
-      "name": "B@mbi",
-      "symbol": "Bam",
-      "description": "Bambi token",
+      "name": "Alie",
+      "symbol": "AAA",
+      "description": "Alie token",
       "image": "./upload/img.jpg",
       "showName": true,
       "createdOn": "https://pump.fun",
-      "twitter": "https://x.com/bambi",
-      "telegram": "https://t.me/bambi",
-      "website": "https://bambi"
+      "twitter": "https://x.com/alie",
+      "telegram": "https://t.me/alie",
+      "website": "https://alie"
 }
 ```
 `
@@ -34,9 +34,8 @@ npx ts-node example/basic/index.ts
 `
 You can check token launch and bundling in this link:
   - pumpfun site
-    https://pump.fun/2q4JLenwD1cRhzSLu3uPMQPw4fTEYp7bLtfmBwFLb48v
+    https://pump.fun/tokenaddress
   - solscan.io
-    ![alt text](image.png)
 
 ### PumpDotFunSDK Class
 
@@ -224,9 +223,6 @@ npx ts-node example/events/events.ts
 
 We welcome contributions! Please submit a pull request or open an issue to discuss any changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
